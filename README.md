@@ -1,45 +1,43 @@
-# Titanic Survival Prediction 🚢
+# 🌸 Iris Flower Classification
 
-This project builds a machine learning model to predict survival outcomes of passengers on the Titanic using the famous Titanic dataset. It uses a Random Forest classifier along with data preprocessing steps such as encoding, imputing, and normalization.
+This project uses the famous Iris flower dataset to train a machine learning model using a Random Forest Classifier that classifies flowers into three species:
 
-## 📂 Files Included
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
 
-- `titanic_survival_prediction.py`: The main Python script containing data loading, preprocessing, model training, evaluation, and visualization.
-- `Titanic-Dataset.csv`: The dataset used for prediction (ensure this is included if sharing complete project).
-- `requirements.txt`: Python libraries used in this project.
-- `README.md`: Project overview and instructions.
+## 📂 Files
 
-## 🧠 Features Used
-
-- Pclass
-- Sex
-- Age
-- SibSp (number of siblings/spouses aboard)
-- Parch (number of parents/children aboard)
-- Fare
-- Embarked
-
-## 📈 Model
-
-- **Algorithm**: Random Forest Classifier
-- **Accuracy**: ~81%
-
-## 🛠 How to Run
-
-```bash
-pip install -r requirements.txt
-python titanic_survival_prediction.py
-```
+- `iris_classification.ipynb`: Jupyter Notebook containing all code for data loading, training, evaluation, and visualization.
+- `IRIS.csv`: Dataset file.
+- `feature_importance.png`: Bar graph showing the importance of each feature.
+- `requirements.txt`: List of dependencies.
 
 ## 📊 Output
 
-- Classification report
-- Accuracy score
-- Confusion matrix heatmap
+The model achieves 100% accuracy on the test set using Random Forest.
 
-## 📚 Libraries Used
+## 🔧 How to Run
+
+1. Clone the repo:
+    ```
+    git clone https://github.com/your-username/iris-flower-classification.git
+    cd iris-flower-classification
+    ```
+
+2. Install dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Open and run the Jupyter Notebook:
+    ```
+    jupyter notebook iris_classification.ipynb
+    ```
+
+## 📦 Dependencies
 
 - pandas
 - scikit-learn
-- matplotlib
 - seaborn
+- matplotlib
